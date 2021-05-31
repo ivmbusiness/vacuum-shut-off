@@ -10,17 +10,17 @@ const float offLimit=-70;
 
 What you are going to need:
 - Arduino nano, or any other arduino you can program.. I was using nano just because I had a few of them and they have USB on board so it is easy to flush them. Plus, they are pretty small.
-![Arduino image](/images/arduino.jpeg)
+![Arduino image](/images/arduino.jpg)
 - Power source (I am using 21v) and probably step down if your power source above 5v. I am using dc to dc adjustable step down, just because I have few of them.
-![sensor](/images/stepdown.jpeg)
+![sensor](/images/stepdown.jpg)
 - Vacuum sensor. In my case it is the only one i was able to find on ebay for reasonable price. It is -14.5 - +30psi. If you use different one you may have to adjust code.
-![sensor](/images/sensor.jpeg)
+![sensor](/images/sensor.jpg)
 - Solid state relay so you can control your AC vacuum pump (110/220 AC or whatever you have). Using this relay because you can connect it directly to arduino digital out pin.
-![relay](/images/relay.jpeg)
+![relay](/images/relay.jpg)
 - Screen for Arduino 128x128 SPI TFT - optional but I had one so I am using one to display what is going on.
-![screen](/images/screen.jpeg) ![screen](/images/screen1.jpeg)
+![screen](/images/screen.jpg) ![screen](/images/screen1.jpg)
 
-what to do Step By Step:
+## what to do Step By Step:
 
 1. Solder you DC power supply to dc step down. It has IN- and IN+. Plug it in and adjust it so OUT- and OUT+ has 5-6v. It Depend on Nano manufacturer but most of them don't like 12v.
 1. Flush program from this repository into Arduino
@@ -52,5 +52,5 @@ what to do Step By Step:
       2. step down Out+ to Arduino VIN
 
 Here is my schematics drawings, just to see whole picture all togather:
-![schematic](/images/schematic.jpeg)
+![schematics](/images/schematics.jpg)
         

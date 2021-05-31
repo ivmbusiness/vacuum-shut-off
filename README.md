@@ -27,7 +27,7 @@ What you are going to need:
   1. Install Arduino IDE if you don't have it yet
   1. Open the only .ino file through File > Open
   1. Select Arduino nano as you device through Tools > Board > Arduino AVR Boards > Arduino NANO
-  1. Connect your arduino to USB on your laptop and make sure Port is selected through Tools > Port. Ususally port is selected automatically.
+  1. Connect your arduino to USB on your laptop and make sure Port is selected through Tools > Port. Usually port is selected automatically.
   1. Hit Compile button just in case. Observer "Done compiling." message at the bottom. Hit Upload button and observe progress and done upload messages in the output at the bottom. 
 1. Solder everything to arduino:
    1. Screen
@@ -51,6 +51,6 @@ What you are going to need:
       1. step down Out- to Arduino GND
       2. step down Out+ to Arduino VIN
 
-Here is my schematics drawings, just to see whole picture all togather:
+Here is my schematics drawings, just to see whole picture all together:
 ![schematics](/images/schematics.jpg)
         
